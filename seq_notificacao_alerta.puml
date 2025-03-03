@@ -1,0 +1,5 @@
+@startuml
+PlataformaIoT -> Notificacao: Verifica se há alerta de temperatura
+Notificacao -> Paciente: Envia mensagem de alerta
+Notificacao -> ProfissionalSaude: Notifica equipe médica se necessário
+@enduml
