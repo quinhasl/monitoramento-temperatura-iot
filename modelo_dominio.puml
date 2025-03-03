@@ -1,0 +1,6 @@
+@startuml
+Paciente -> DispositivoIoT: Mede temperatura corporal
+DispositivoIoT -> PlataformaIoT: Envia dados da medição
+PlataformaIoT -> MedicaoTemperatura: Registra a medição
+PlataformaIoT -> Notificacao: Verifica se há alerta de temperatura
+@enduml
